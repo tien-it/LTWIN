@@ -9,3 +9,14 @@ D:\Do_An\clone\doanwin\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 D:\Do_An\clone\doanwin\BUS\obj\Debug\BUS.csproj.CopyComplete
 D:\Do_An\clone\doanwin\BUS\obj\Debug\BUS.dll
 D:\Do_An\clone\doanwin\BUS\obj\Debug\BUS.pdb
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\BUS\bin\Debug\BUS.dll
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\BUS\bin\Debug\BUS.pdb
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\BUS\bin\Debug\DAO.dll
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\BUS\bin\Debug\DTO.dll
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\BUS\bin\Debug\DAO.pdb
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\BUS\bin\Debug\DTO.pdb
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\BUS\obj\Debug\BUS.dll
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\BUS\obj\Debug\BUS.pdb
