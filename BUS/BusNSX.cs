@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data;
+using DAO;
+using DTO;
+namespace BUS
+{
+    public class BusNSX
+    {
+        public static DataTable LayDSTaiKhoan()
+        {
+            return DAONSX.LayDSTaiKhoan();
+        }
+
+        public static bool ThemNSX(DTONSX tk)
+        {
+            if (!DAONSX.KTNSX(tk.MANSX))
+            {
+                return DAONSX.ThemNSX(tk);
+            }
+            return false;
+        }
+    }
+}

@@ -69,6 +69,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.picavatar = new System.Windows.Forms.PictureBox();
+            this.chkstatus = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvnhanvien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picavatar)).BeginInit();
@@ -438,11 +439,22 @@
             this.picavatar.TabStop = false;
             this.picavatar.Click += new System.EventHandler(this.picavatar_Click);
             // 
+            // chkstatus
+            // 
+            this.chkstatus.AutoSize = true;
+            this.chkstatus.Location = new System.Drawing.Point(611, 154);
+            this.chkstatus.Name = "chkstatus";
+            this.chkstatus.Size = new System.Drawing.Size(56, 17);
+            this.chkstatus.TabIndex = 7;
+            this.chkstatus.Text = "Status";
+            this.chkstatus.UseVisualStyleBackColor = true;
+            // 
             // frmNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1064, 681);
+            this.Controls.Add(this.chkstatus);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.dgvnhanvien);
             this.Controls.Add(this.groupBox1);
@@ -523,6 +535,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colID;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDaytoWork;
         private System.Windows.Forms.DataGridViewTextBoxColumn colGender;
+        private System.Windows.Forms.CheckBox chkstatus;
     }
 }
 
