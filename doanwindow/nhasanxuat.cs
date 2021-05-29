@@ -41,7 +41,12 @@ namespace doanwindow
         }
         private void btnadd_Click(object sender, EventArgs e)
         {
-            DTONSX NSX = new DTONSX(txtmansx.Text, txttennsx.Text, txtemailnsx.Text, txtsdtnsx.Text, txtdiachinsx.Text);
+            DTONSX NSX = new DTONSX();
+            NSX.MANSX = txtmansx.Text;
+            NSX.TEN = txttennsx.Text;
+            NSX.EMAIL = txtemailnsx.Text;
+            NSX.SDT = txtsdtnsx.Text;
+            NSX.DCHI = txtdiachinsx.Text;
             if(BusNSX.ThemNSX(NSX))
             {
                 Load_data();
@@ -50,7 +55,7 @@ namespace doanwindow
             }
             else
             {
-                MessageBox.Show("Thêm Thành Thất Bại");
+                MessageBox.Show("Thêm Thất Bại");
             }
         }
     }

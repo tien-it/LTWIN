@@ -11,11 +11,11 @@ namespace DAO
     public class DataProvider
     {
         private static SqlDataAdapter adapter = new SqlDataAdapter();
-        private static SqlConnection conn = new SqlConnection("Data Source=localhost;Initial Catalog=CSDL2;Integrated Security=True");
+        private static SqlConnection conn = new SqlConnection(@"Data Source=localhost;Initial Catalog=CSDL2;Integrated Security=True");
 
         public DataProvider()
         {
-            
+
         }
 
         private static SqlConnection OpenConnection()
@@ -30,7 +30,7 @@ namespace DAO
         public static DataTable ExecuteSelectQuery(string query, SqlParameter[] param)
         {
             SqlCommand cmd = new SqlCommand();
-            DataTable dtbKetQua= new DataTable();
+            DataTable dtbKetQua = new DataTable();
             try
             {
                 cmd.Connection = OpenConnection();
@@ -40,7 +40,7 @@ namespace DAO
                 adapter.Fill(dtbKetQua);
                 conn.Close();
             }
-            catch (SqlException e)
+            catch
             {
                 return null;
             }
@@ -59,7 +59,7 @@ namespace DAO
                 rowsAffected = cmd.ExecuteNonQuery();
                 conn.Close();
             }
-            catch (SqlException e)
+            catch
             {
                 return 0;
             }

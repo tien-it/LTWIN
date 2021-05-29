@@ -14,14 +14,25 @@ namespace BUS
         {
             return DAONSX.LayDSTaiKhoan();
         }
-
+        public static DataTable LayMANSX(string ma)
+        {
+            return DAONSX.LayMANSX(ma);
+        }
         public static bool ThemNSX(DTONSX tk)
         {
-            if (!DAONSX.KTNSX(tk.MANSX))
-            {
-                return DAONSX.ThemNSX(tk);
-            }
-            return false;
+            return DAONSX.ThemNSX(tk);
+        }
+        public static bool SuaNSX(DTONSX tk)
+        {
+            return DAONSX.SuaNSX(tk);
+        }
+        public static bool XoaNSX(string tk)
+        {
+            return DAONSX.XoaNSX(tk);
+        }
+        public static bool KTNSX(DTONSX tk)
+        {
+            return DAONSX.KTNSX(tk);
         }
     }
 }

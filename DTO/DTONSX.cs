@@ -18,24 +18,12 @@ namespace DTO
         //2
         public string SDT { get; set; }
         //3
+        public string HINHANH { get; set; }
         //4
         public string DCHI { get; set; }
         //5
         //6
         //7
         //8
-        public DTONSX(string MANSX, string TEN, string EMAIL, string SDT, string DCHI )
-        {
-            this.MANSX = MANSX;
-            this.TEN = TEN;
-            this.EMAIL = EMAIL;
-            this.SDT = SDT;
-            this.DCHI = DCHI;
-        }
-        public DTONSX(DataRow dr)
-        {
-            MANSX = Convert.ToString(dr["MANSX"]);
-
-        }
     }
 }
