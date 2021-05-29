@@ -11,17 +11,17 @@ namespace DAO
 {
     public class TaiKhoanDAO
     {
-        public static List<taiKhoanDTO> layDSTaiKhoan()
+        public static List<TaiKhoanDTO> layDSTaiKhoan()
         {
 
             string query = "SELECT * FROM NHANVIEN";
             SqlParameter[] param = new SqlParameter[0];
             DataTable dtb = DataProvider.ExecuteSelectQuery(query, param);
-            List<taiKhoanDTO> LsTK = new List<taiKhoanDTO>();
+            List<TaiKhoanDTO> LsTK = new List<TaiKhoanDTO>();
 
             foreach (DataRow item in dtb.Rows)
             {
-                LsTK.Add(new taiKhoanDTO(item));
+                LsTK.Add(new TaiKhoanDTO(item));
             }   
             return LsTK;
 
@@ -34,9 +34,9 @@ namespace DAO
             return DataProvider.ExecuteSelectQuery(query, param);
         }
 
-        public static bool ThemTaiKhoan(taiKhoanDTO tk)
+        public static bool ThemTaiKhoan(TaiKhoanDTO tk)
         {
-            string query = "INSERT INTO NHANVIEN (Fullname ,Username, Pass, Email, Birthday,SDT , GT, Avatar, trangthai) VALUES ( @Fullname ,@Username, @Password, @Email, @Birthday,@SDT, @Gender, @Avatar, @Status)";
+            string query = "INSERT INTO NHANVIEN (Fullname ,Username, Password, Email, Birthday,SDT , Gender, Avatar, Status) VALUES ( @Fullname ,@Username, @Password, @Email, @Birthday,@SDT, @Gender, @Avatar, @Status)";
             SqlParameter[] param = new SqlParameter[10];
             param[0] = new SqlParameter("@Fullname", tk.Fullname);
             param[1] = new SqlParameter("@Username", tk.Username);

@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="taiKhoanDTO.cs" />
+    <Compile Include="Dto.cs" />
     <Compile Include="DTONSX.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
