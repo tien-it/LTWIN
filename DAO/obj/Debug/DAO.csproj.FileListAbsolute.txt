@@ -7,21 +7,3 @@ D:\Do_An\clone\doanwin\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
 D:\Do_An\clone\doanwin\DAO\obj\Debug\DAO.csproj.CopyComplete
 D:\Do_An\clone\doanwin\DAO\obj\Debug\DAO.dll
 D:\Do_An\clone\doanwin\DAO\obj\Debug\DAO.pdb
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DAO\bin\Debug\DAO.dll
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DAO\bin\Debug\DAO.pdb
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DAO\bin\Debug\DTO.dll
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DAO\bin\Debug\DTO.pdb
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DAO\obj\Debug\DAO.csproj.CopyComplete
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DAO\obj\Debug\DAO.dll
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DAO\obj\Debug\DAO.pdb
-E:\Github\LTWIN\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
-E:\Github\LTWIN\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
-E:\Github\LTWIN\DAO\obj\Debug\DAO.dll
-E:\Github\LTWIN\DAO\obj\Debug\DAO.pdb
-E:\Github\LTWIN\DAO\bin\Debug\DAO.dll
-E:\Github\LTWIN\DAO\bin\Debug\DAO.pdb
-E:\Github\LTWIN\DAO\bin\Debug\DTO.dll
-E:\Github\LTWIN\DAO\bin\Debug\DTO.pdb
-E:\Github\LTWIN\DAO\obj\Debug\DAO.csproj.CopyComplete

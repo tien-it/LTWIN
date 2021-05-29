@@ -38,7 +38,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.picNSX = new System.Windows.Forms.PictureBox();
+            this.pícanpham = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btncancel = new System.Windows.Forms.Button();
@@ -57,7 +57,7 @@
             this.btnseach = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.picNSX)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pícanpham)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvnhasanxuat)).BeginInit();
             this.SuspendLayout();
@@ -141,16 +141,16 @@
             this.label1.TabIndex = 28;
             this.label1.Text = "Tên Nhà Sản Xuất";
             // 
-            // picNSX
+            // pícanpham
             // 
-            this.picNSX.BackColor = System.Drawing.Color.DarkCyan;
-            this.picNSX.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.picNSX.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picNSX.Location = new System.Drawing.Point(29, 97);
-            this.picNSX.Name = "picNSX";
-            this.picNSX.Size = new System.Drawing.Size(337, 229);
-            this.picNSX.TabIndex = 23;
-            this.picNSX.TabStop = false;
+            this.pícanpham.BackColor = System.Drawing.Color.DarkCyan;
+            this.pícanpham.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pícanpham.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pícanpham.Location = new System.Drawing.Point(29, 97);
+            this.pícanpham.Name = "pícanpham";
+            this.pícanpham.Size = new System.Drawing.Size(337, 229);
+            this.pícanpham.TabIndex = 23;
+            this.pícanpham.TabStop = false;
             // 
             // label11
             // 
@@ -334,11 +334,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.picNSX);
+            this.Controls.Add(this.pícanpham);
             this.Name = "nhasanxuat";
             this.Text = "nhasanxuat";
             this.Load += new System.EventHandler(this.nhasanxuat_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.picNSX)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pícanpham)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvnhasanxuat)).EndInit();
@@ -357,7 +357,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox picNSX;
+        private System.Windows.Forms.PictureBox pícanpham;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btncancel;

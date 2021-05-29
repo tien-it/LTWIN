@@ -32,7 +32,6 @@ D:\Do_An\clone\doanwin\doanwindow\bin\Debug\BUS.pdb
 D:\Do_An\clone\doanwin\doanwindow\bin\Debug\DTO.pdb
 D:\Do_An\clone\doanwin\doanwindow\bin\Debug\DAO.pdb
 D:\Do_An\clone\doanwin\doanwindow\obj\Debug\doanwindow.csproj.CopyComplete
-<<<<<<< HEAD
 E:\Github\LTWIN\doanwindow\bin\Debug\doanwindow.exe.config
 E:\Github\LTWIN\doanwindow\bin\Debug\doanwindow.exe
 E:\Github\LTWIN\doanwindow\bin\Debug\doanwindow.pdb
@@ -57,29 +56,3 @@ E:\Github\LTWIN\doanwindow\obj\Debug\doanwindow.csproj.CoreCompileInputs.cache
 E:\Github\LTWIN\doanwindow\obj\Debug\doanwindow.csproj.CopyComplete
 E:\Github\LTWIN\doanwindow\obj\Debug\doanwindow.exe
 E:\Github\LTWIN\doanwindow\obj\Debug\doanwindow.pdb
-=======
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\bin\Debug\doanwindow.exe.config
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\bin\Debug\doanwindow.exe
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\bin\Debug\doanwindow.pdb
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\bin\Debug\BUS.dll
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\bin\Debug\DTO.dll
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\bin\Debug\DAO.dll
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\bin\Debug\BUS.pdb
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\bin\Debug\DTO.pdb
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\bin\Debug\DAO.pdb
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.csprojAssemblyReference.cache
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.frmNhanVien.resources
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\HoaDon.FrmCTHD.resources
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.FrmMain.resources
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\WinFormsApp1.FrmHoaDon.resources
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.KH.resources
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.frmlogin.resources
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.nhasanxuat.resources
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.Properties.Resources.resources
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.frmsanpham.resources
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.csproj.GenerateResource.cache
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.csproj.CoreCompileInputs.cache
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.csproj.CopyComplete
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.exe
-C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.pdb
->>>>>>> 022a2aeae529fc7c8d9152ac22e1d821d6b5eb27

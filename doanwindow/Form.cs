@@ -9,8 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Drawing.Imaging;
-using DTO;
-using BUS;
 
 namespace doanwindow
 {
@@ -38,7 +36,7 @@ namespace doanwindow
 
             
             //con.Close();
-                        
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -56,24 +54,6 @@ namespace doanwindow
             row.Cells[8].Value = dtpdaytowork.Value.ToString();
             row.Cells[9].Value = (radmale.Checked ? 1 : 0);
             dgvnhanvien.Rows.Add(row);
-            //TaiKhoanDTO tk = new TaiKhoanDTO();
-            //tk.Username = txtusername.Text;
-            //tk.Password = txtfullname.Text;
-            //tk.Email = txtemail.Text;
-            //tk.Brithday = dtpbirthday.Value;
-            //tk.Gender = radmale.Checked;
-            //tk.avatar = "";
-            //tk.Status = chkstatus.Checked;
-
-            //if (TaiKhoanBUS.ThemTaiKhoan(tk))
-            //{
-            //    dgvnhanvien.DataSource = null;
-            //    dgvnhanvien.DataSource = TaiKhoanBUS.LayDSTaiKhoan();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Them tai khoan that bai");
-            //}
 
 
         }
