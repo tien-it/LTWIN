@@ -24,18 +24,5 @@ namespace DTO
         //6
         //7
         //8
-        public DTONSX(string MANSX, string TEN, string EMAIL, string SDT, string DCHI )
-        {
-            this.MANSX = MANSX;
-            this.TEN = TEN;
-            this.EMAIL = EMAIL;
-            this.SDT = SDT;
-            this.DCHI = DCHI;
-        }
-        public DTONSX(DataRow dr)
-        {
-            MANSX = Convert.ToString(dr["MANSX"]);
-
-        }
     }
 }

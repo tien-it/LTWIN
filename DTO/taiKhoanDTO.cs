@@ -33,7 +33,6 @@ namespace DTO
         public taiKhoanDTO(DataRow dr)
         {
             ID = Convert.ToInt32(dr["ID"]);
-
         }
         public taiKhoanDTO()
         {

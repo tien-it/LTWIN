@@ -17,11 +17,8 @@ namespace BUS
 
         public static bool ThemNSX(DTONSX tk)
         {
-            if (!DAONSX.KTNSX(tk.MANSX))
-            {
                 return DAONSX.ThemNSX(tk);
-            }
-            return false;
         }
+
     }
 }
