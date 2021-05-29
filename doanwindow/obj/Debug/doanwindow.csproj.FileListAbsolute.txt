@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Do_An\doanwin\doanwindow\bin\Debug\doanwindow.exe.config
 D:\Do_An\doanwin\doanwindow\bin\Debug\doanwindow.exe
 D:\Do_An\doanwin\doanwindow\bin\Debug\doanwindow.pdb
@@ -32,6 +33,8 @@ D:\Do_An\clone\doanwin\doanwindow\bin\Debug\BUS.pdb
 D:\Do_An\clone\doanwin\doanwindow\bin\Debug\DTO.pdb
 D:\Do_An\clone\doanwin\doanwindow\bin\Debug\DAO.pdb
 D:\Do_An\clone\doanwin\doanwindow\obj\Debug\doanwindow.csproj.CopyComplete
+=======
+>>>>>>> parent of 761903d (Revert "haha")
 E:\Github\LTWIN\doanwindow\bin\Debug\doanwindow.exe.config
 E:\Github\LTWIN\doanwindow\bin\Debug\doanwindow.exe
 E:\Github\LTWIN\doanwindow\bin\Debug\doanwindow.pdb
@@ -41,7 +44,6 @@ E:\Github\LTWIN\doanwindow\bin\Debug\DAO.dll
 E:\Github\LTWIN\doanwindow\bin\Debug\BUS.pdb
 E:\Github\LTWIN\doanwindow\bin\Debug\DTO.pdb
 E:\Github\LTWIN\doanwindow\bin\Debug\DAO.pdb
-E:\Github\LTWIN\doanwindow\obj\Debug\doanwindow.csprojAssemblyReference.cache
 E:\Github\LTWIN\doanwindow\obj\Debug\doanwindow.frmNhanVien.resources
 E:\Github\LTWIN\doanwindow\obj\Debug\HoaDon.FrmCTHD.resources
 E:\Github\LTWIN\doanwindow\obj\Debug\doanwindow.FrmMain.resources
@@ -56,3 +58,7 @@ E:\Github\LTWIN\doanwindow\obj\Debug\doanwindow.csproj.CoreCompileInputs.cache
 E:\Github\LTWIN\doanwindow\obj\Debug\doanwindow.csproj.CopyComplete
 E:\Github\LTWIN\doanwindow\obj\Debug\doanwindow.exe
 E:\Github\LTWIN\doanwindow\obj\Debug\doanwindow.pdb
+<<<<<<< HEAD
+=======
+E:\Github\LTWIN\doanwindow\obj\Debug\doanwindow.csprojAssemblyReference.cache
+>>>>>>> parent of 761903d (Revert "haha")

@@ -11,17 +11,17 @@ namespace DAO
 {
     public class TaiKhoanDAO
     {
-        public static List<TaiKhoanDTO> layDSTaiKhoan()
+        public static List<taiKhoanDTO> layDSTaiKhoan()
         {
 
             string query = "SELECT * FROM Accounts";
             SqlParameter[] param = new SqlParameter[0];
             DataTable dtb = DataProvider.ExecuteSelectQuery(query, param);
-            List<TaiKhoanDTO> LsTK = new List<TaiKhoanDTO>();
+            List<taiKhoanDTO> LsTK = new List<taiKhoanDTO>();
 
             foreach (DataRow item in dtb.Rows)
             {
-                LsTK.Add(new TaiKhoanDTO(item));
+                LsTK.Add(new taiKhoanDTO(item));
             }   
             return LsTK;
 
@@ -34,9 +34,13 @@ namespace DAO
             return DataProvider.ExecuteSelectQuery(query, param);
         }
 
-        public static bool ThemTaiKhoan(TaiKhoanDTO tk)
+        public static bool ThemTaiKhoan(taiKhoanDTO tk)
         {
+<<<<<<< HEAD
             string query = "INSERT INTO Accounts (Fullname ,Username, Password, Email, Birthday,SDT , Gender, Avatar, Status) VALUES ( @Fullname ,@Username, @Password, @Email, @Birthday,@SDT, @Gender, @Avatar, @Status)";
+=======
+            string query = "INSERT INTO NHANVIEN (Fullname ,Username, Pass, Email, Birthday,SDT , GT, Avatar, trangthai) VALUES ( @Fullname ,@Username, @Password, @Email, @Birthday,@SDT, @Gender, @Avatar, @Status)";
+>>>>>>> parent of 761903d (Revert "haha")
             SqlParameter[] param = new SqlParameter[10];
             param[0] = new SqlParameter("@Fullname", tk.Fullname);
             param[1] = new SqlParameter("@Username", tk.Username);

@@ -41,7 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Dto.cs" />
+=======
+    <Compile Include="taiKhoanDTO.cs" />
+    <Compile Include="DTONSX.cs" />
+>>>>>>> parent of 761903d (Revert "haha")
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
