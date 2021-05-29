@@ -90,36 +90,36 @@ namespace doanwindow
 
         private void txtusername_Enter(object sender, EventArgs e)
         {
-            string usernametxt = txtusername.Text;
-            string passtxt = txtpass.Text;
-            if (TaiKhoanBUS.Dangnhap(usernametxt, passtxt))
-            {
-                //DialogResult dg = new DialogResult() ;
-                //MessageBox.Show.DialogResult
-                MessageBox.Show("Dang Nhap Thanh Cong");
+            //string usernametxt = txtusername.Text;
+            //string passtxt = txtpass.Text;
+            //if (TaiKhoanBUS.Dangnhap(usernametxt, passtxt))
+            //{
+            //    //DialogResult dg = new DialogResult() ;
+            //    //MessageBox.Show.DialogResult
+            //    MessageBox.Show("Dang Nhap Thanh Cong");
 
-            }
-            else
-            {
-                MessageBox.Show("Dang Nhap That Bai");
-            }
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Dang Nhap That Bai");
+            //}
         }
 
         private void txtpass_Enter(object sender, EventArgs e)
         {
-            string usernametxt = txtusername.Text;
-            string passtxt = txtpass.Text;
-            if (TaiKhoanBUS.Dangnhap(usernametxt, passtxt))
-            {
-                //DialogResult dg = new DialogResult() ;
-                //MessageBox.Show.DialogResult
-                MessageBox.Show("Dang Nhap Thanh Cong");
+            //string usernametxt = txtusername.Text;
+            //string passtxt = txtpass.Text;
+            //if (TaiKhoanBUS.Dangnhap(usernametxt, passtxt))
+            //{
+            //    //DialogResult dg = new DialogResult() ;
+            //    //MessageBox.Show.DialogResult
+            //    MessageBox.Show("Dang Nhap Thanh Cong");
 
-            }
-            else
-            {
-                MessageBox.Show("Dang Nhap That Bai");
-            }
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Dang Nhap That Bai");
+            //}
         }
 
         private void frmlogin_Load(object sender, EventArgs e)

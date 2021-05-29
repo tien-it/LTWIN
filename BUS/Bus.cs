@@ -15,7 +15,7 @@ namespace BUS
             return TaiKhoanDAO.LayDSTaiKhoan();
         }
 
-        public static bool ThemTaiKhoan(TaiKhoanDTO tk)
+        public static bool ThemTaiKhoan(taiKhoanDTO tk)
         {
             if (!TaiKhoanDAO.KTTaiKhoanTonTai(tk.Username))
             {

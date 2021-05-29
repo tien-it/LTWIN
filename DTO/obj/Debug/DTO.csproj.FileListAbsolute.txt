@@ -4,3 +4,15 @@ D:\Do_An\clone\doanwin\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
 D:\Do_An\clone\doanwin\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\Do_An\clone\doanwin\DTO\obj\Debug\DTO.dll
 D:\Do_An\clone\doanwin\DTO\obj\Debug\DTO.pdb
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DTO\bin\Debug\DTO.dll
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DTO\bin\Debug\DTO.pdb
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DTO\obj\Debug\DTO.dll
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DTO\obj\Debug\DTO.pdb
+C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+E:\Github\LTWIN\DTO\bin\Debug\DTO.dll
+E:\Github\LTWIN\DTO\bin\Debug\DTO.pdb
+E:\Github\LTWIN\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+E:\Github\LTWIN\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\Github\LTWIN\DTO\obj\Debug\DTO.dll
+E:\Github\LTWIN\DTO\obj\Debug\DTO.pdb
