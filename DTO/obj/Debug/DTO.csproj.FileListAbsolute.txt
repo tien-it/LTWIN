@@ -10,3 +10,9 @@ C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DTO\obj\Debug\DTO.csproj.CoreCompil
 C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DTO\obj\Debug\DTO.dll
 C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DTO\obj\Debug\DTO.pdb
 C:\Users\Le Long Toan\Documents\GitHub\LTWIN\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+E:\Github\LTWIN\DTO\bin\Debug\DTO.dll
+E:\Github\LTWIN\DTO\bin\Debug\DTO.pdb
+E:\Github\LTWIN\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+E:\Github\LTWIN\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\Github\LTWIN\DTO\obj\Debug\DTO.dll
+E:\Github\LTWIN\DTO\obj\Debug\DTO.pdb

@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 namespace DTO
 {
     //Tai Khoan DTO
-    public class TaiKhoanDTO
+    public class taiKhoanDTO
     {
         public int ID { get; set; }
         //0
@@ -30,10 +30,13 @@ namespace DTO
         //7
         public bool Status { get; set; }
         //8
-        public TaiKhoanDTO(DataRow dr)
+        public taiKhoanDTO(DataRow dr)
         {
             ID = Convert.ToInt32(dr["ID"]);
 
+        }
+        public taiKhoanDTO()
+        {
         }
 
     }
