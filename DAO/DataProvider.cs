@@ -40,7 +40,7 @@ namespace DAO
                 adapter.Fill(dtbKetQua);
                 conn.Close();
             }
-            catch (SqlException e)
+            catch
             {
                 return null;
             }
@@ -59,7 +59,7 @@ namespace DAO
                 rowsAffected = cmd.ExecuteNonQuery();
                 conn.Close();
             }
-            catch (SqlException e)
+            catch
             {
                 return 0;
             }

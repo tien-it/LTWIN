@@ -19,6 +19,9 @@ namespace BUS
         {
                 return DAONSX.ThemNSX(tk);
         }
-
+        public static bool KTNSX(string tk)
+        {
+            return DAONSX.KTNSX(tk);
+        }
     }
 }
