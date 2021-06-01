@@ -11,59 +11,69 @@ namespace DAO
     public class DataProvider
     {
         private static SqlDataAdapter adapter = new SqlDataAdapter();
-        private static SqlConnection conn = new SqlConnection("Data Source=localhost;Initial Catalog=CSDL2;Integrated Security=True");
+        private static SqlConnection conn = new SqlConnection(@"Data Source=localhost;Initial Catalog=CSDL2;Integrated Security=True");
 
         public DataProvider()
         {
             
         }
 
-        private static SqlConnection OpenConnection()
+        private void OpenConnection()
         {
             if (conn.State == ConnectionState.Closed || conn.State == ConnectionState.Broken)
             {
-                conn.Open();
+                DataProvider.conn.Open();
             }
-            return conn;
+        }
+        private void CloseConnection()
+        {
+            if (DataProvider.conn != null)
+            {
+                DataProvider.conn.Close();
+            }
         }
 
-        public static DataTable ExecuteSelectQuery(string query, SqlParameter[] param)
+        public DataTable GetDataTable(string query)
         {
-            SqlCommand cmd = new SqlCommand();
-            DataTable dtbKetQua= new DataTable();
             try
             {
-                cmd.Connection = OpenConnection();
-                cmd.CommandText = query;
-                cmd.Parameters.AddRange(param);
-                adapter.SelectCommand = cmd;
-                adapter.Fill(dtbKetQua);
-                conn.Close();
+                OpenConnection();
+                DataTable dt = new DataTable();
+                SqlDataAdapter sqlda = new SqlDataAdapter(query, conn);
+                sqlda.Fill(dt);
+                CloseConnection();
+                return dt;
             }
-            catch
+            catch 
             {
                 return null;
             }
-            return dtbKetQua;
         }
 
-        public static int ExecuteNonQuery(string query, SqlParameter[] param)
+        public void ExecuteReader(string query)
         {
-            SqlCommand cmd = new SqlCommand();
-            int rowsAffected;
             try
             {
-                cmd.Connection = OpenConnection();
-                cmd.CommandText = query;
-                cmd.Parameters.AddRange(param);
-                rowsAffected = cmd.ExecuteNonQuery();
-                conn.Close();
+                OpenConnection();
+                SqlCommand sqlcmd = new SqlCommand(query,conn);
+                sqlcmd.ExecuteNonQuery();
+                CloseConnection();
             }
             catch
             {
-                return 0;
+
             }
-            return rowsAffected;
+        }
+        public string GetValue(string query)
+        {
+            string temp = null;
+            OpenConnection();
+            SqlCommand sqlcmd = new SqlCommand(query, conn);
+            SqlDataReader sqldr = sqlcmd.ExecuteReader();
+            while (sqldr.Read())
+                temp = sqldr[0].ToString();
+            CloseConnection();
+            return temp;
         }
     }
 }

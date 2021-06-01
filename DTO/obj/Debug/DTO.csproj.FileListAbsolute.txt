@@ -16,3 +16,9 @@ E:\Github\LTWIN\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
 E:\Github\LTWIN\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 E:\Github\LTWIN\DTO\obj\Debug\DTO.dll
 E:\Github\LTWIN\DTO\obj\Debug\DTO.pdb
+E:\tai ve\LTWIN\DTO\bin\Debug\DTO.dll
+E:\tai ve\LTWIN\DTO\bin\Debug\DTO.pdb
+E:\tai ve\LTWIN\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+E:\tai ve\LTWIN\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\tai ve\LTWIN\DTO\obj\Debug\DTO.dll
+E:\tai ve\LTWIN\DTO\obj\Debug\DTO.pdb

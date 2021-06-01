@@ -31,3 +31,14 @@ E:\Github\LTWIN\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 E:\Github\LTWIN\BUS\obj\Debug\BUS.csproj.CopyComplete
 E:\Github\LTWIN\BUS\obj\Debug\BUS.dll
 E:\Github\LTWIN\BUS\obj\Debug\BUS.pdb
+E:\tai ve\LTWIN\BUS\bin\Debug\BUS.dll
+E:\tai ve\LTWIN\BUS\bin\Debug\BUS.pdb
+E:\tai ve\LTWIN\BUS\bin\Debug\DAO.dll
+E:\tai ve\LTWIN\BUS\bin\Debug\DTO.dll
+E:\tai ve\LTWIN\BUS\bin\Debug\DAO.pdb
+E:\tai ve\LTWIN\BUS\bin\Debug\DTO.pdb
+E:\tai ve\LTWIN\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+E:\tai ve\LTWIN\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+E:\tai ve\LTWIN\BUS\obj\Debug\BUS.csproj.CopyComplete
+E:\tai ve\LTWIN\BUS\obj\Debug\BUS.dll
+E:\tai ve\LTWIN\BUS\obj\Debug\BUS.pdb

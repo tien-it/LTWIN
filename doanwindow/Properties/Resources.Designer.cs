@@ -63,6 +63,16 @@ namespace doanwindow.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1_1 {
+            get {
+                object obj = ResourceManager.GetObject("1.1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _171559464_362374908482780_588209229218504634_n {
             get {
                 object obj = ResourceManager.GetObject("171559464_362374908482780_588209229218504634_n", resourceCulture);
@@ -386,6 +396,26 @@ namespace doanwindow.Properties {
         internal static System.Drawing.Bitmap ui_icon_pack_15_128 {
             get {
                 object obj = ResourceManager.GetObject("ui-icon-pack-15-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled {
+            get {
+                object obj = ResourceManager.GetObject("Untitled", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled1 {
+            get {
+                object obj = ResourceManager.GetObject("Untitled1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

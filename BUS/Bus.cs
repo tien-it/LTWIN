@@ -10,39 +10,6 @@ namespace BUS
 {
     public class TaiKhoanBUS
     {
-        public static DataTable LayDSTaiKhoan()
-        {
-            return TaiKhoanDAO.LayDSTaiKhoan();
-        }
-
-        public static bool ThemTaiKhoan(taiKhoanDTO tk)
-        {
-            if (!TaiKhoanDAO.KTTaiKhoanTonTai(tk.Username))
-            {
-                return TaiKhoanDAO.ThemTaiKhoan(tk);
-            }
-            return false;
-        }
-        public static bool Dangnhap(string username , string password)
-        {
-            if (TaiKhoanDAO.KTTaiKhoanTonTai(username))
-            {
-               if(Convert.ToString( TaiKhoanDAO.LayMatKhau(username)) == password)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
-            }else
-            {
-                return false;
-            }
-
-            
-
-        }
 
     }
 }

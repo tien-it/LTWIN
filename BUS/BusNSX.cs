@@ -6,22 +6,39 @@ using System.Threading.Tasks;
 using System.Data;
 using DAO;
 using DTO;
+
 namespace BUS
 {
-    public class BusNSX
+    public class BUSNSX
     {
-        public static DataTable LayDSTaiKhoan()
+        DAONSX nsx = new DAONSX();
+        public  DataTable LoadNSX(string con)
         {
-            return DAONSX.LayDSTaiKhoan();
+            return nsx.GetData(con);
         }
-
-        public static bool ThemNSX(DTONSX tk)
+        public void AddNSX(DTONSX NSX)
         {
-                return DAONSX.ThemNSX(tk);
+            nsx.AddData(NSX);
         }
-        public static bool KTNSX(string tk)
+        public void EditNSX(DTONSX NSX)
         {
-            return DAONSX.KTNSX(tk);
+            nsx.EditData(NSX);
+        }
+        public void DelNSX(DTONSX NSX)
+        {
+            nsx.DeleteData(NSX);
+        }
+        public DataTable GetData(string NSX)
+        {
+            return nsx.GetData(NSX);
+        }
+        public DataTable GetMANSX()
+        {
+            return nsx.GetMANSX();
+        }
+        public DataTable SearchNSX(string NSX)
+        {
+            return nsx.SearchNCC(NSX);
         }
     }
 }

@@ -29,6 +29,8 @@ SDT NVARCHAR (10),
 DCHI NVARCHAR (50),
 TrangThai bit
 )
+select * from NSX
+
 CREATE TABLE LOAI 
 (
 MALOAI INT ,

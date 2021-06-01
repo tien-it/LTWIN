@@ -20,9 +20,5 @@ namespace DTO
         //3
         //4
         public string DCHI { get; set; }
-        //5
-        //6
-        //7
-        //8
     }
 }

@@ -41,40 +41,6 @@ namespace doanwindow
         //thuc hien click vao nut add trong form nhan vien
         private void button1_Click(object sender, EventArgs e)
         {
-            //tao row chua du lieu can luu vao dgv
-            DataGridViewRow row = (DataGridViewRow)dgvnhanvien.Rows[0].Clone();
-            row.Cells[0].Value = picavatar.Image;
-            row.Cells[1].Value = txtusername.Text;
-            row.Cells[2].Value = txtfullname.Text;
-            row.Cells[3].Value = dtpbirthday.Value.ToString();
-            row.Cells[4].Value = txtemail.Text;
-            row.Cells[5].Value = txtphonenumber.Text;
-            row.Cells[6].Value = txtpassword.Text;
-            row.Cells[7].Value = txtid.Text;
-            row.Cells[8].Value = dtpdaytowork.Value.ToString();
-            row.Cells[9].Value = (radmale.Checked ? 1 : 0);
-            //them dong row vao dgv
-            dgvnhanvien.Rows.Add(row);
-
-            taiKhoanDTO tk = new taiKhoanDTO();
-            tk.Username = txtusername.Text;
-            tk.Password = txtfullname.Text;
-            tk.Email = txtemail.Text;
-            tk.Brithday = dtpbirthday.Value;
-            tk.Gender = radmale.Checked;
-            tk.avatar = "";
-            tk.Status = chkstatus.Checked;
-
-            if (TaiKhoanBUS.ThemTaiKhoan(tk))
-            {
-                dgvnhanvien.DataSource = null;
-                dgvnhanvien.DataSource = TaiKhoanBUS.LayDSTaiKhoan();
-            }
-            else
-            {
-                MessageBox.Show("Them tai khoan that bai");
-            }
-
 
         }
 

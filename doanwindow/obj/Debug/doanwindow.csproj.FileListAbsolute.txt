@@ -46,3 +46,27 @@ C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.csp
 C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.csproj.CopyComplete
 C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.exe
 C:\Users\Le Long Toan\Documents\GitHub\LTWIN\doanwindow\obj\Debug\doanwindow.pdb
+E:\tai ve\LTWIN\doanwindow\bin\Debug\doanwindow.exe.config
+E:\tai ve\LTWIN\doanwindow\bin\Debug\doanwindow.exe
+E:\tai ve\LTWIN\doanwindow\bin\Debug\doanwindow.pdb
+E:\tai ve\LTWIN\doanwindow\bin\Debug\BUS.dll
+E:\tai ve\LTWIN\doanwindow\bin\Debug\DTO.dll
+E:\tai ve\LTWIN\doanwindow\bin\Debug\DAO.dll
+E:\tai ve\LTWIN\doanwindow\bin\Debug\BUS.pdb
+E:\tai ve\LTWIN\doanwindow\bin\Debug\DTO.pdb
+E:\tai ve\LTWIN\doanwindow\bin\Debug\DAO.pdb
+E:\tai ve\LTWIN\doanwindow\obj\Debug\doanwindow.csprojAssemblyReference.cache
+E:\tai ve\LTWIN\doanwindow\obj\Debug\doanwindow.frmNhanVien.resources
+E:\tai ve\LTWIN\doanwindow\obj\Debug\HoaDon.FrmCTHD.resources
+E:\tai ve\LTWIN\doanwindow\obj\Debug\doanwindow.FrmMain.resources
+E:\tai ve\LTWIN\doanwindow\obj\Debug\WinFormsApp1.FrmHoaDon.resources
+E:\tai ve\LTWIN\doanwindow\obj\Debug\doanwindow.KH.resources
+E:\tai ve\LTWIN\doanwindow\obj\Debug\doanwindow.frmlogin.resources
+E:\tai ve\LTWIN\doanwindow\obj\Debug\doanwindow.nhasanxuat.resources
+E:\tai ve\LTWIN\doanwindow\obj\Debug\doanwindow.Properties.Resources.resources
+E:\tai ve\LTWIN\doanwindow\obj\Debug\doanwindow.frmsanpham.resources
+E:\tai ve\LTWIN\doanwindow\obj\Debug\doanwindow.csproj.GenerateResource.cache
+E:\tai ve\LTWIN\doanwindow\obj\Debug\doanwindow.csproj.CoreCompileInputs.cache
+E:\tai ve\LTWIN\doanwindow\obj\Debug\doanwindow.csproj.CopyComplete
+E:\tai ve\LTWIN\doanwindow\obj\Debug\doanwindow.exe
+E:\tai ve\LTWIN\doanwindow\obj\Debug\doanwindow.pdb

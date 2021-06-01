@@ -25,3 +25,12 @@ E:\Github\LTWIN\DAO\bin\Debug\DAO.pdb
 E:\Github\LTWIN\DAO\bin\Debug\DTO.dll
 E:\Github\LTWIN\DAO\bin\Debug\DTO.pdb
 E:\Github\LTWIN\DAO\obj\Debug\DAO.csproj.CopyComplete
+E:\tai ve\LTWIN\DAO\bin\Debug\DAO.dll
+E:\tai ve\LTWIN\DAO\bin\Debug\DAO.pdb
+E:\tai ve\LTWIN\DAO\bin\Debug\DTO.dll
+E:\tai ve\LTWIN\DAO\bin\Debug\DTO.pdb
+E:\tai ve\LTWIN\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+E:\tai ve\LTWIN\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+E:\tai ve\LTWIN\DAO\obj\Debug\DAO.csproj.CopyComplete
+E:\tai ve\LTWIN\DAO\obj\Debug\DAO.dll
+E:\tai ve\LTWIN\DAO\obj\Debug\DAO.pdb

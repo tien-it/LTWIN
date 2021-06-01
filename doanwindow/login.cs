@@ -56,19 +56,7 @@ namespace doanwindow
         // Dang nhap vao chuong trinh #1
         private void btnlogin_Click_1(object sender, EventArgs e)
         {
-            string usernametxt = txtusername.Text;
-            string passtxt = txtpass.Text; 
-            if(TaiKhoanBUS.Dangnhap(usernametxt, passtxt))
-            {
-                //DialogResult dg = new DialogResult() ;
-                //MessageBox.Show.DialogResult
-                MessageBox.Show("Dang Nhap Thanh Cong"); 
 
-            }
-            else
-            {
-                MessageBox.Show("Dang Nhap That Bai");
-            }
         }
 
         private void txtusername_TextChanged_1(object sender, EventArgs e)
